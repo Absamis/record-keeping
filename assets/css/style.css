@@ -1,0 +1,112 @@
+body, .side-bar, .brand, .addPane{
+    background-color: rgb(252, 252, 249);
+}
+a, a:hover{
+    text-decoration: none;
+}
+.error{
+    display: block;
+    color: red;
+}
+.text-color {
+    color: green;
+}
+
+.bg-col1 {
+    background-color: rgb(160, 255, 160);
+}
+.bg-col {
+    background-color: rgb(42, 118, 42);
+}
+
+.side-bar {
+    width: 15em;
+    overflow: auto;
+    white-space: nowrap;
+    box-shadow: 1px 1px 4px #555;
+    height: 100%;
+    position: fixed;
+    scrollbar-color: green;
+    --webkit-scrollbar-width: 5px;
+}
+
+.nv-item {
+    margin-top: 2px;
+    padding: 5px;
+    padding-left: 2em;
+    color: #000;
+}
+
+.nv-item:hover {
+    color: black;
+}
+
+.nv-item.active {
+    border-radius: 30px;
+    background-color: rgb(160, 255, 160);
+    color: green;
+    font-weight: bold;
+    ;
+}
+
+.nv-item .text {
+    font-size: 16px;
+    margin-left: 1.5em;
+}
+
+.nv-item .ico {
+    font-size: 25px;
+}
+
+.main {
+    margin-left: 15.1em;
+    padding: 4px;
+}
+
+.top-bar {
+    padding: 1.4em 2.4em;
+    border-bottom: 4px solid #f5f5f5;
+}
+
+.paginate .paginate-item {
+    padding: 10px;
+    /* background-color: green; */
+    color: green;
+}
+
+.paginate .paginate-item:hover {
+    background-color: #eee;
+}
+
+.dropdown-menu {
+    margin-left: -5em;
+    cursor: pointer;
+}
+.form-label{
+    font-weight: bold;
+}
+.addPane{
+    display: none;
+    /* //margin: 3px; */
+    border: 1px solid #ddd;
+    /* padding: 20px; */
+    border-radius: 10px;
+    position: fixed;
+    white-space: nowrap;
+    overflow: auto;
+    height: 100%;
+    width: calc(100% - 16em);
+    z-index: 20;
+    margin-bottom: 3em;
+}
+.form-control{
+    padding: 12px;
+}
+.nv-form{
+    width: 100%;
+    padding: 10px;
+    display: block;
+    border: 1px solid #ddd;
+    background-color: rgb(214, 210, 210);
+    border-radius: 10px;;
+}
